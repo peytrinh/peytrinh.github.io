@@ -123,3 +123,35 @@ h1 {
     border: 3px solid #5ba25a;
     width: 85%;
 }
+
+.container ol {
+    list-style-position: inside;
+    margin: auto;
+    line-height: 150%;
+    padding: 1%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1),
+                inset 0 -3px 8px rgba(144, 238, 144, 0.2),
+                inset 0 3px 8px rgba(255, 255, 255, 0.3);
+}
+
+table th, table td {
+    padding: 12px 20px;
+    text-align: left;
+    color: #357435;
+    border-bottom: 2px solid rgba(144, 238, 144, 0.7);
+    font-size: 18px;
+}
+
+table th {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}

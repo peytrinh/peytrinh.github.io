@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #b0e299;
+    text-align: center;
+    color: #357435;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to bottom, #79c07c, #5ba25a);
+    box-shadow: inset 0 18px 5px rgba(255, 255, 255, 0.2),
+                0 3px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Top bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 3px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.8),
+                0 2px 2px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 18px 2px rgba(255, 255, 255, 0.2),
+                0 2px 6px rgba(0, 0, 0, 1);
+}
+
+/* Main */
+main {
+    margin-top: 30px;
+}
+
+h1 {
+    margin: 30px 0;
+    font-size: 2.5em;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.199);
+}
+
+.container {
+    width: 600px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(144, 238, 144, 0.8));
+    border-radius: 20px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1),
+                inset 0 -8px 16px rgba(0, 255, 127, 0.1),
+                inset 0 8px 16px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.darkcontainer {
+    color: rgb(209, 230, 213);
+    width: 90%;
+    height: 90%;
+    background: linear-gradient(to bottom, rgba(104, 111, 95, 0.3), rgba(34, 75, 34, 0.3));
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+                inset 0 -8px 16px rgba(110, 110, 110, 0.1),
+                inset 0 20px 3px rgba(194, 193, 193, 0.1);
+    backdrop-filter: blur(10px);
+    margin: 10px auto;
+    padding: 10px;
+    text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.466);
+}
+
+.darkcontainer h3 {
+    color: rgb(243, 250, 236);
+    font-weight: bold;
+    font-size: x-large;
+    padding: 8px;
+}
+
+.darkcontainer p {
+    width: 85%;
+    margin: auto;
+}
+
+.icons {
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 12%;
+}
+
+.container ul {
+    list-style-position: inside;
+    margin: auto;
+    line-height: 150%;
+    padding: 1%;
+}
+
+.projectimages {
+    border-radius: 15px;
+    border: 3px solid #5ba25a;
+    width: 85%;
+}
